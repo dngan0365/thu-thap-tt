@@ -1,0 +1,28 @@
+{
+    "object_kinds": [
+      {
+        "name": "Diem"
+      },
+      {
+        "name": "DuongThang"
+      },
+      {
+        "name": "Tia"
+      },
+      {
+        "name": "DoanThang"
+      },
+      {
+        "name": "MatPhang"
+      },
+      {
+        "name": "NuaMatPhang"
+      }, 
+      {
+        "name": "Goc"
+      },
+      {
+        "name": "TamGiac"
+      }
+    ]
+  }

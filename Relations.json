@@ -1,0 +1,400 @@
+{
+    "relations": [
+      {
+        "name": "NamGiua",
+        "object1": "Diem",
+        "object2": "Doan"
+      },
+      {
+        "name": "NamTren",
+        "object1": "Diem",
+        "object2": "Doan"
+      },
+      {
+        "name": "NamTrong",
+        "object1": "Diem",
+        "object2": "Doan"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Diem",
+        "object2": "Doan"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Diem",
+        "object2": "Duong"
+      },
+      {
+        "name": "NamTren",
+        "object1": "Diem",
+        "object2": "Duong"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Diem",
+        "object2": "Tia"
+      },
+      {
+        "name": "NamTren",
+        "object1": "Diem",
+        "object2": "Tia"
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "Diem",
+        "object2": "Diem"
+      },
+      {
+        "name": "Chua",
+        "object1": "DuongThang",
+        "object2": "Diem"
+      },
+      {
+        "name": "DiQua",
+        "object1": "DuongThang",
+        "object2": "Diem"
+      },
+      {
+        "name": "KhongThuoc",
+        "object1": "Diem",
+        "object2": "Duong"
+      },
+      {
+        "name": "KhongNamTren",
+        "object1": "Diem",
+        "object2": "Duong"
+      },
+      {
+        "name": "KhongChua",
+        "object1": "Duong",
+        "object2": "Diem"
+      },
+      {
+        "name": "KhongDiQua",
+        "object1": "Duong",
+        "object2": "Diem"
+      },
+      {
+        "name": "ThangHang",
+        "object1": "BaDiem",
+        "object2": ""
+      },
+      {
+        "name": "NamGiuaHaiDiem",
+        "object1": "Diem",
+        "object2": "HaiDiem"
+      },
+      {
+        "name": "CungPhia",
+        "object1": "HaiDiem",
+        "object2": "Diem"
+      },
+      {
+        "name": "KhacPhia",
+        "object1": "HaiDiem",
+        "object2": "Diem"
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "Duong",
+        "object2": "Duong"
+      },
+      {
+        "name": "TrungNhau",
+        "object1": "Duong",
+        "object2": "Duong"
+      },
+      {
+        "name": "TrungNhau",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "Cat",
+        "object1": "Duong",
+        "object2": "Duong"
+      },
+      {
+        "name": "CatNhau",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "DongQuay",
+        "object1": "HaiDuong",
+        "object2": "Diem"
+      },
+      {
+        "name": "SongSong",
+        "object1": "Duong",
+        "object2": "Duong"
+      },
+      {
+        "name": "SongSong",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "CheoNhau",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "KhongTrungNhau",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "HaiDuong",
+        "object2": ""
+      },
+      {
+        "name": "CatDoiMot",
+        "object1": "DuongThang",
+        "object2": ""
+      },
+      {
+        "name": "CatNhauDoiMot",
+        "object1": "DuongThang",
+        "object2": ""
+      },
+      {
+        "name": "ChungGoc",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "ChungGoc",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "DoiNhau",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "Doi",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "TrungNhau",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "TrungNhau",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "NamGiua",
+        "object1": "Tia",
+        "object2": "HaiTia"
+      },
+      {
+        "name": "KhongTrungNhau",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "KhongTrung",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "HaiTia",
+        "object2": ""
+      },
+      {
+        "name": "PhanBiet",
+        "object1": "Tia",
+        "object2": "Tia"
+      },
+      {
+        "name": "DiemMutDoan",
+        "object1": "HaiDiem",
+        "object2": "Doan"
+      },
+      {
+        "name": "Cat",
+        "object1": "Doan",
+        "object2": "Doan"
+      },
+      {
+        "name": "CatNhau",
+        "object1": "HaiDoan",
+        "object2": ""
+      },
+      {
+        "name": "SongSong",
+        "object1": "Doan",
+        "object2": "Doan"
+      },
+      {
+        "name": "NuaMatPhang",
+        "object1": "DuongThang",
+        "object2": "MatPhang"
+      },
+      {
+        "name": "NganCach",
+        "object1": "DuongThang",
+        "object2": "MatPhang"
+      },
+      {
+        "name": "DoiNhau",
+        "object1": "HaiNuaMatPhang",
+        "object2": ""
+      },
+      {
+        "name": "LaBo",
+        "object1": "DuongThang",
+        "object2": "HaiNuaMatPhang"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Diem",
+        "object2": "NuaMatPhang"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Doan",
+        "object2": "NuaMatPhang"
+      },
+      {
+        "name": "LaDinhGoc",
+        "object1": "Diem",
+        "object2": "Goc"
+      },
+      {
+        "name": "KeNhau",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "KeNhau",
+        "object1": "Goc",
+        "object2": "Goc"
+      },
+      {
+        "name": "MotCanhChung",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "PhuNhau",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "Tong90",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "BuNhau",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "Tong180",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "Phu",
+        "object1": "Goc",
+        "object2": "Goc"
+      },
+      {
+        "name": "Bu",
+        "object1": "Goc",
+        "object2": "Goc"
+      },
+      {
+        "name": "KeBu",
+        "object1": "HaiGoc",
+        "object2": ""
+      },
+      {
+        "name": "PhanGiac",
+        "object1": "Tia",
+        "object2": "Goc"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Goc",
+        "object2": "NuaMatPhangTia"
+      },
+      {
+        "name": "Thuoc",
+        "object1": "Goc",
+        "object2": "NuaMatPhangDuong"
+      },
+      {
+        "name": "KhongThangHang",
+        "object1": "BaDiem",
+        "object2": ""
+      },
+      {
+        "name": "TamGiac",
+        "object1": "BaDiem",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "TamGiac",
+        "object1": "BaCanh",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "TrongTamGiac",
+        "object1": "Diem",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "KhongTrongTamGiac",
+        "object1": "Diem",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "KhongThuocCanhNao",
+        "object1": "Diem",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "NgoaiTamGiac",
+        "object1": "Diem",
+        "object2": "TamGiac"
+      },
+      {
+        "name": "Cat",
+        "object1": "Duong",
+        "object2": "Doan"
+      },
+      {
+        "name": "Cat",
+        "object1": "Duong",
+        "object2": "Tia"
+      },
+      {
+        "name": "Cat",
+        "object1": "Tia",
+        "object2": "Doan"
+      }
+    ]
+  }
+  

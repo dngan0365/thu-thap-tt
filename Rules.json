@@ -1,0 +1,89 @@
+{
+    "rules" : [
+        {
+        "rule": 
+            {
+            "id_rule": "c1_1",
+            "content": "",
+            "objects" : 
+            [
+            {
+                "objects" : {
+                    "kind": "Diem",
+                    "name": "O"
+                }
+            },
+            {
+                "objects" : {
+                    "kind": "Diem",
+                    "name": "A"
+                }
+            },
+            {
+                "objects" : {
+                    "kind": "Diem",
+                    "name": "B"
+                }
+            },
+            {
+                "object": {
+                    "kind": "Tia",
+                    "name": "Ox"
+                }
+            },
+            {
+                "object": {
+                    "kind": "Tia",
+                    "name": "Oy"
+                }
+            }
+            ],
+            "hypothesis" : 
+            [
+                {
+                    "kind": "relation",
+                    "name": "DoiNhau",
+                    "name_object_1": "Ox",
+                    "name_object_2": "Oy"
+                },
+                {
+                    "kind": "relation",
+                    "name": "Thuoc",
+                    "name_object_1": "A",
+                    "name_object_2": "Ox"
+                },
+                {
+                    "kind": "relation",
+                    "name": "Thuoc",
+                    "name_object_1": "B",
+                    "name_object_2": "Oy"
+                }
+            ],
+            "goal": [
+                {
+                    "kind": "relation",
+                    "name": "NamGiua",
+                    "name_object_1": "O",
+                    "name_object_2": "A",
+                    "name_object_3": "B"
+                }
+            ]
+        }
+    
+    },
+    {
+        "rule": 
+            {
+            "id_rule": "c1_2",
+            "content": "",
+            "objects" : {
+                "objects1" : {
+                    "kind": "Diem",
+                    "name": "A"
+                }
+            } 
+        }
+    
+    }
+]
+}
